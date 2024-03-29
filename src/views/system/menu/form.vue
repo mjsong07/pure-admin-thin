@@ -4,7 +4,7 @@ import ReCol from "@/components/ReCol";
 import { formRules } from "./utils/rule";
 import { FormProps } from "./utils/types";
 import { transformI18n } from "@/plugins/i18n";
-import { IconSelect } from "@/components/ReIcon";
+// import { IconSelect } from "@/components/ReIcon";
 import Segmented from "@/components/ReSegmented";
 import ReAnimateSelector from "@/components/ReAnimateSelector";
 import {
@@ -168,9 +168,9 @@ defineExpose({ getRef });
         :xs="24"
         :sm="24"
       >
-        <el-form-item label="菜单图标">
+        <!-- <el-form-item label="菜单图标">
           <IconSelect v-model="newFormInline.icon" class="w-full" />
-        </el-form-item>
+        </el-form-item> -->
       </re-col>
       <re-col
         v-show="newFormInline.menuType !== 3"
